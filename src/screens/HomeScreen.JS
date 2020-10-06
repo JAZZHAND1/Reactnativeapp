@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet, View, Button, Image, TouchableOpacity, ScrollView} from 'react-native';
-import { createPortal } from 'react-dom';
+
 
 const HomeScreen = (props)=>{
     return (
