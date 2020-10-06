@@ -11,7 +11,10 @@ const HomeScreen = (props)=>{
                     style={styles.imageStyle}
                 />
             <Text style = {styles.textStyle}>Department of CSE{"\n"}Program: SWE{"\n"}{"\n"}</Text>
-            <TouchableOpacity onPress={function (){props.navigation.navigate("Profile");}}>
+            <TouchableOpacity onPress={function ()
+                {props.navigation.navigate("Profile");
+                }
+                }>
                 <Text style = {styles.touchStyle}>My Profile{"\n"}</Text>
             </TouchableOpacity>
             <View style = {styles.buttonStyle}>
@@ -37,29 +40,30 @@ const HomeScreen = (props)=>{
 const styles = StyleSheet.create(
     {
         textStyle:{
-            fontSize: 18,
+            fontSize: 30,
             color:'blue',
             textAlign: "center",
-            margin: 20
+            margin: 50
         },
         imageStyle: {
-            height: 410,
-            width: 250,
+            height: 358,
+            width: 296,
             alignSelf: 'center',
+            margin:0
         },
         viewStyle: {
             margin: 50,
             alignSelf: 'center'
         },
         buttonStyle: {
-            margin: 5,
+            margin: 10,
+            
         },
         touchStyle: {
             fontSize: 18,
             color:'blue',
             textAlign: "center",
             margin: 15,
-            textDecorationLine: 'underline',
         },
     }
 );
