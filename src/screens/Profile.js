@@ -19,7 +19,7 @@ const Profile = () => {
 };
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 18,
+    fontSize: 30,
     color: "blue",
     margin: 20,
     alignSelf: "center",
