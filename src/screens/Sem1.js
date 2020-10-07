@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, FlatList, StyleSheet} from "react-native";
-const sem1 = () => {
+const semester1 = () => {
     const courses = [
         { name: "Hum 4145: Islamiat" },
         { name: "Hum 4147: Technology, Environment and Society" },
@@ -24,7 +24,7 @@ const sem1 = () => {
 const styles = StyleSheet.create({
   textStyle: {
     fontSize: 15,
-    color: "black",
+    color: "blue",
     marginVertical: 30,
   },
   viewStyle: {
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
     alignSelf: 'center'
 },
 });
-export default sem1;
+export default semester1;
