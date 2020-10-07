@@ -14,7 +14,7 @@ const Semesters = (props) => {
             props.navigation.navigate("sem1");
             }
           }
-          color="red"
+          color="green"
         />
       </View>
       <View style = {styles.buttonStyle}>
@@ -24,7 +24,7 @@ const Semesters = (props) => {
               props.navigation.navigate("sem2");
               }
             }
-          color="red"
+          color="green"
         />
       </View>
       <View style = {styles.buttonStyle}>
@@ -34,7 +34,7 @@ const Semesters = (props) => {
               props.navigation.navigate("sem3");
               }
           }
-          color="red"
+          color="green"
         />
       </View>
     </View>
