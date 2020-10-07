@@ -1,8 +1,8 @@
 import React from "react";
 import {View, StyleSheet, Button} from "react-native";
-import sem1 from 'D:/Books/3-2/Web And App Development/Lab Task/Apps/reactnativeapp/src/screens/Sem1.js';
-import sem2 from 'D:/Books/3-2/Web And App Development/Lab Task/Apps/reactnativeapp/src/screens/Sem2.js';
-import sem3 from 'D:/Books/3-2/Web And App Development/Lab Task/Apps/reactnativeapp/src/screens/Sem3.js';
+import semester1 from 'D:/Books/3-2/Web And App Development/Lab Task/Apps/reactnativeapp/src/screens/Semester1.js';
+import semester2 from 'D:/Books/3-2/Web And App Development/Lab Task/Apps/reactnativeapp/src/screens/Semester2.js';
+import semester3 from 'D:/Books/3-2/Web And App Development/Lab Task/Apps/reactnativeapp/src/screens/Semester3.js';
 
 const Semesters = (props) => {
   return (

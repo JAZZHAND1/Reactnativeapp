@@ -1,13 +1,13 @@
 import React from "react";
 import { Text, View, FlatList, StyleSheet} from "react-native";
-const semester3 = () => {
+const semester2 = () => {
     const courses = [
-        { name: "Math 4341: Linear Algebra" },
-        { name: "CSE 4303: Data Structures" },
-        { name: "CSE 4305: Computer Organization and Architecture" },
-        { name: "CSE 4307: Database Management System" },
-        { name: "CSE 4309: Theory of Computing" },
-        { name: "SWE 4301: Object Oriented Concepts II" },
+        { name: "Hum 4247: Accounting" },
+        { name: "Hum 4249: Business Psychology and Communications" },
+        { name: "Math 4241 Integral Calculus and Differential Equations" },
+        { name: "CSE 4203 Discrete Mathematics" },
+        { name: "CSE 4205 Digital Logic Design" },
+        { name: "SWE 4201: Object Oriented Concepts I" },
       ];
       return (
         <View style={styles.viewStyle}>
@@ -23,7 +23,7 @@ const semester3 = () => {
 };
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 15,
+    fontSize: 30,
     color: "blue",
     marginVertical: 30,
   },
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
     alignSelf: 'center'
 },
 });
-export default semester3;
+export default semester2;

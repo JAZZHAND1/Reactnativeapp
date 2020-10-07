@@ -23,7 +23,7 @@ const semester1 = () => {
 };
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 15,
+    fontSize: 30,
     color: "blue",
     marginVertical: 30,
   },
